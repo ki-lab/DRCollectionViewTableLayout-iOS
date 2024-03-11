@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/darrarski/DRCollectionViewTableLayout-iOS.git', :tag => '1.0.5' }
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
-  s.source_files = 'DRCollectionViewTableLayout'
+  s.source_files = 'Source/**/*.{h,m}'
   s.requires_arc = true
 end
